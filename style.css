@@ -583,6 +583,12 @@ ul    { list-style: none; }
 }
 
 @media (max-width: 640px) {
+  .carrusel__slides img,
+  .carrusel__slides video {
+    height: auto;
+    object-fit: contain;
+    background: #f5f7fa;
+  }
   .proximas-grid {
     grid-template-columns: 1fr;
   }
@@ -633,6 +639,13 @@ ul    { list-style: none; }
 }
 
 @media (max-width: 480px) {
+  .carrusel__slides img,
+  .carrusel__slides video {
+    height: auto;
+    object-fit: contain;
+    background: #f5f7fa;
+  }
+  
   .cards-grid { grid-template-columns: 1fr; }
   .galeria { grid-template-columns: repeat(2, 1fr); }
   .galeria img { height: 110px; }
