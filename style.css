@@ -602,6 +602,15 @@ ul    { list-style: none; }
    ========================================= */
 
 @media (max-width: 768px) {
+  .carrusel__slides img,
+  .carrusel__slides video {
+    min-width: 100%;
+    height: 700px;
+    object-fit: contain;
+    flex-shrink: 0;
+    background: #f5f7fa;
+  }
+  
   .navbar { padding: 0 1.2rem; position: relative; }
   .navbar__hamburger { display: flex; }
   .navbar__links {
