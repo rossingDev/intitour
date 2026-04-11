@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inti Tour – Excursiones en Bondi</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="index.html" class="navbar__logo">
+      <img src="images/logo.png" alt="Inti Tour" />
+    </a>
+    <button class="navbar__hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="navbar__links" id="navLinks">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#proximas">Excursiones</a></li>
+      <li><a href="#realizadas-preview">Realizadas</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__contenido">
+      <h1>Viajá con<br><span>Inti Tour</span></h1>
+      <p>Recorremos los mejores destinos de Uruguay juntos.<br>Subite al bondi y descubrí lo que el país tiene para ofrecer.</p>
+      <div class="hero__botones">
+        <a href="#excursiones" class="btn btn--blanco">Ver excursiones</a>
+        <a href="https://wa.me/59899388777" target="_blank" class="btn btn--outline">
+          <i class="fa-brands fa-whatsapp"></i> Consultar
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion" id="nosotros">
+    <div class="nosotros">
+      <div class="nosotros__texto">
+        <h2>Sobre Nosotros</h2>
+        <p>En Inti Tour Excursiones no solo te llevamos a un destino… Te regalamos experiencias que se sienten, se viven y se recuerdan.</p>
+        <p>Cada salida está pensada para que desconectes de la rutina, conectes con la naturaleza, la cultura y con vos mismo. Paisajes únicos, momentos compartidos y esa sensación de libertad que solo viajar puede darte.</p>
+        <p>Subite, relajate… nosotros nos encargamos del resto. <strong>Ambiente familiar.</strong></p>
+        <p class="nosotros__cierre">¡Tu próxima aventura empieza acá!</p>
+      </div>
+    </div>
+  </section>
+
+  <!--EXCURSION ACTUAL-->
+  <section class="seccion" id="proximas">
+    <div class="seccion__encabezado">
+      <h2>Próximas Excursiones</h2>
+      <p>¡Anotate antes de que se llenen los cupos!</p>
+    </div>
+    <div class="proximas-grid">
+
+      <div class="card">
+        <div class="carrusel">
+          <button class="carrusel__btn carrusel__btn--prev">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <div class="carrusel__slides">
+            <img src="images/Proximas/Proxima (1).jpeg" alt="Foto 1" />
+            <img src="images/Proximas/Proxima (2).jpeg" alt="Foto 2" />
+            <img src="images/Proximas/Proxima (3).jpeg" alt="Foto 3" />
+            <img src="images/Proximas/Proxima (4).jpeg" alt="Foto 4" />
+            <img src="images/Proximas/Proxima (5).jpeg" alt="Foto 5" />
+            <img src="images/Proximas/Proxima (6).jpeg" alt="Foto 6" />
+            <video controls>
+              <source src="images/Proximas/Video.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <button class="carrusel__btn carrusel__btn--next">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <div class="card__body">
+          <span class="card__precio"> Ticket $2800</span>
+          <h3>Bodega los Pinos</h3>
+          <p>
+            Un día para disfrutar, relajarse y vivir algo realmente diferente. <br>
+            ✨ ¿Qué incluye esta experiencia única? <br>
+            Además de traslado ida y vuelta con desayuno a bordo y guía. 👇 <br>
+            <br>
+            🥂 Bienvenida en la bodega <br>
+            🚶‍♂️ Recorrido guiado por las instalaciones <br>
+            📖 Historia familiar + procesos de elaboración <br>
+            🍷 Ceremonia de degustación (¡aprendé a disfrutar el vino como un experto!) <br>
+            <br>
+            🧀 Picada regional <br>
+            Fiambres, quesos, panes y salsas… ¡para empezar a tentar el paladar!
+            <br>
+            🍽️ MENÚ COMPLETO <br>
+            🥗 Mesa de ensaladas <br>
+            🔥 Parrilla completa <br>
+            🍰 Mesa de postres <br>
+            🍷 Degustación de vinos seleccionados <br>
+            • Rosado Guardia Vieja <br>
+            • Tannat Roble Don Carlos <br>
+            • Blend Tannat Merlot <br>
+            🥤 Refrescos incluidos <br>
+            🎶 Música en vivo para disfrutar y divertirse! <br>
+            <br>
+            👨‍👩‍👧‍👦 Menores de 3 a 10 años: medio ticket <br>
+            Reserva🔒 en abril con solo $500 en mayo con $1000.
+            El resto lo abonas el mismo día en el bus.
+          </p>
+          <div class="card__meta">
+            <span><i class="fa-regular fa-calendar"></i> 14 JUNIO</span>
+            <span><i class="fa-solid fa-location-dot"></i> Salida: Montevideo</span>
+          </div>
+          <a href="https://wa.me/59899388777?text=Hola!%20Me%20quiero%20anotar" target="_blank" class="btn btn--azul btn--full">
+            <i class="fa-brands fa-whatsapp"></i> ¡Quiero!
+          </a>
+        </div>
+      </div>
+
+      <!--<div class="card">
+        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&q=80" alt="Destino" />
+        <div class="card__body">
+          <span class="card__precio">$XXX</span>
+          <h3>Nombre del Destino</h3>
+          <p>Descripción breve, qué incluye y duración.</p>
+          <div class="card__meta">
+            <span><i class="fa-regular fa-calendar"></i> Fecha a confirmar</span>
+            <span><i class="fa-solid fa-location-dot"></i> Salida: Montevideo</span>
+          </div>
+          <a href="https://wa.me/59899388777?text=Hola!%20Me%20quiero%20anotar" target="_blank" class="btn btn--azul btn--full">
+            <i class="fa-brands fa-whatsapp"></i> ¡Quiero!
+          </a>
+        </div>
+      </div>-->
+
+    </div>
+  </section>
+
+  <!-- EXCURSIONES REALIZADAS -->
+  <section class="seccion seccion--gris" id="realizadas-preview">
+    <div class="seccion__encabezado">
+      <h2>Excursiones Realizadas</h2>
+      <p>Algunos de los destinos que ya recorrimos juntos.</p>
+    </div>
+    <div class="cards-grid">
+
+      <div class="card">
+        <img src="images/16 Marzo 2026/16Marzo3.jpeg" alt="Destino" />
+        <div class="card__body">
+          <h3>Bioparque Durazno</h3>
+          <p>
+            El pasado domingo disfrutamos de un día en BIOPARQUE DURAZNO.
+            Un día a sol 🌞 radiantes y con un grupo de personas que nos acompaño  y disfrutó del paseo y la experiencia.
+            ¡Gracias a todos!
+          </p>
+          <span class="card__fecha"><i class="fa-regular fa-calendar-check"></i> 16 Marzo 2026</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/26 Enero 2026/26Enero.jpeg" alt="Destino" />
+        <div class="card__body">
+          <h3>Punta del Este</h3>
+          <p>
+            🌊🏝 Punta del Este. Visitamos y paseamos embarcación a Isla Gorriti, los irónicos dedos, y Pueblo Gaucho que recrea la vida rural del Uruguay del siglo XIX. 
+            ✨️Una excursión completita, con un grupo genial, amigable y dispuesto a disfrutar del gran día que nos hizo ☀️
+          </p>
+          <span class="card__fecha"><i class="fa-regular fa-calendar-check"></i> 26 Enero 2026</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/23 Febrero 2026/23Febrero3.jpeg" alt="Destino" />
+        <div class="card__body">
+          <h3>Colonia</h3>
+          <p>
+            Volvimos a COLONIA. Disfrutamos del día e hicimos el recorrido nocturno,
+            cuando los faroles se encienden, las calles empedrada junto con la arquitectura 
+            colonial tornan a la ciuda de una magia misteriosa.🏰✨️
+            ✨️Agradecemos a todo el grupo que nos acompaño, y sobre todo ppr la disposición de cada uno a disfrutar al máximo el paseo. Hasta la próxima!!
+          </p>
+          <span class="card__fecha"><i class="fa-regular fa-calendar-check"></i> 23 Febrero 2026</span>
+        </div>
+      </div>
+
+    </div>
+    <div class="ver-todas">
+      <a href="realizadas/" class="btn btn--azul">Ver todas las excursiones</a>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="seccion seccion--azul" id="contacto">
+    <div class="seccion__encabezado">
+      <h2>Contacto</h2>
+      <p>¿Tenés dudas o querés reservar? Escribinos.</p>
+    </div>
+    <div class="contacto-grid">
+      <a href="https://wa.me/59899388777" target="_blank" class="contacto-card">
+        <i class="fa-brands fa-whatsapp"></i>
+        <div>
+          <strong>WhatsApp</strong>
+          <span>099 388 777</span>
+        </div>
+      </a>
+      <a href="https://instagram.com/intitourexcursiones" target="_blank" class="contacto-card">
+        <i class="fa-brands fa-instagram"></i>
+        <div>
+          <strong>Instagram</strong>
+          <span>@intitourexcursiones</span>
+        </div>
+      </a>
+      <a href="https://www.facebook.com/share/1GBrzEb3DM/" target="_blank" class="contacto-card">
+        <i class="fa-brands fa-facebook"></i>
+        <div>
+          <strong>Facebook</strong>
+          <span>Inti Tour Viajes</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 <strong>Inti Tour</strong> – Excursiones por Uruguay 🇺🇾</p>
+  </footer>
+
+  <!-- WhatsApp flotante -->
+  <a href="https://wa.me/59899388777" target="_blank" class="wsp-flotante" aria-label="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>
