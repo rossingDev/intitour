@@ -629,7 +629,7 @@ ul    { list-style: none; }
 @media (max-width: 640px) {
   .carrusel__slides img,
   .carrusel__slides video {
-    height: auto;
+    height: 420px;
     object-fit: contain;
     background: #f5f7fa;
   }
@@ -654,7 +654,7 @@ ul    { list-style: none; }
 @media (max-width: 768px) {
   .carrusel__slides img,
   .carrusel__slides video {
-    height: auto;
+    height: 420px;
     object-fit: contain;
     background: #f5f7fa;
   }
@@ -685,7 +685,7 @@ ul    { list-style: none; }
 @media (max-width: 480px) {
   .carrusel__slides img,
   .carrusel__slides video {
-    height: auto;
+    height: 420px;
     object-fit: contain;
     background: #f5f7fa;
   }
